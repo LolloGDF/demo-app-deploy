@@ -6,5 +6,3 @@ metadata:
 spec:
   ports:
   - port: 80
-    selector:
-      app: whoami
