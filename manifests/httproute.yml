@@ -8,8 +8,8 @@ spec:
     - name: lab
       namespace: traefik
   hostnames:
-    - argocd.lab.local
+    - demo.lab.local
   rules:
     - backendRefs:
-        - name: argocd-server
+        - name: whoami
           port: 80
